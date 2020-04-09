@@ -1,0 +1,45 @@
+{% extends "autre1/tempUIT.html.twig" %}
+
+
+{% block corps2 %}
+	<div class="corps2">
+		<h2>
+			La urne des actualités
+		</h2>
+		<div class="listeActu">
+			<div class="row">
+				
+				{% for i in 0..8 %}
+					<div class="zoom">
+						<div class="card mb-3 cart" style="max-width: 90%;">
+						  <div class="row no-gutters">
+						    <div class="col-md-4">
+						      <img src="..." class="card-img" alt="...">
+						    </div>
+						    <div class="col-md-8">
+						      <div class="card-body">
+						        <h5 class="card-title">TITRE DE L'ACTUALITE</h5>
+						        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						        consequat.... <a href="?p=actualites&id=0"> Lire la suite</a> </p>
+						        <p class="card-text"><small class="text-muted">Publier il y a 3 mins</small></p>
+						      </div>
+						    </div>
+						  </div>				
+						</div>
+					</div>
+				{% endfor %}
+
+				<div class=""><a href="" class="btn btn-outline-info">Plus d'actualité >> </a></div>
+
+
+			</div>
+		</div>
+	</div>		
+
+	
+
+{% endblock %}
+
+

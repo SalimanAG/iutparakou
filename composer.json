@@ -1,0 +1,15 @@
+{
+    "name": "sal/composer1",
+    "description": "c'est juste un test",
+    "type": "project",
+    "require": {
+        "symfony/asset": "^4.3",
+        "laravel/framework": "^6.0",
+        "twitter/bootstrap": "^4.3",
+        "twig/twig": "^2.11"
+    },
+    "require-dev": {
+        "aura/autoload": "^2.0",
+        "symfony/symfony": "^4.3"
+    }
+}

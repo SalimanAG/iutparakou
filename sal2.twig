@@ -1,0 +1,18 @@
+{% extends "sal1.twig" %}
+
+
+{% block bloc1 %} 
+<br/>je suis le bloc1 redéfini dans le fichier sal2.twig, j'ai hérité du 
+fichier twig sal1<br/>
+<br/>voici le contenu de mon block parent:
+{{parent()}}
+<br/> Regardez l'utilisation d'une fonction avec moi : <br/> {{fonction1 ()}}
+	
+<br/> Voici un macros en action :-D on dirait du MDA en action...hihihi....
+<br/>
+{% import "mesMacros.twig" as mac %}
+
+{{ mac.macr1 (var1) }}
+
+{% endblock %}
+

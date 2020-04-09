@@ -1,0 +1,147 @@
+{% extends "autre1/tempUIT.html.twig" %}
+
+
+{% block corps2 %}
+	<div class="corps2">
+		<h2>{{ formation }}</h2>
+
+			{% if niv == 0 %}
+				<p>
+					<div class="row">
+
+						<div class="col-md-6">
+							<h5> Licence cours du jour </h5>
+
+						
+	     					<p>La formation dure trois ans. Il existe six (6) filières :
+	     						<ul>
+									<li>Gestion des Entreprises</li>
+									<li>Gestion des Banques</li>
+									<li>Gestion Commerciale</li>
+									<li>Informatique de Gestion</li>
+									<li>Gestion des transports et logistique</li>
+									<li>Gestion des Ressources Humaines</li>
+								</ul>
+	     					</p>
+							
+
+						</div>
+
+						<div class="col-md-6">
+							<h5> Licence cours du soir </h5>
+
+		     				<p>La formation dure un an. L’accès est subordonné à l’obtention de Brevet de Techniciens Supérieur (BTS) ou BAC +2 en équivalence dans le domaine. Ce dernier doit être délivré par une université publique. Les filières ouvertes sont :
+								
+								<ul>
+									<li>Gestion des Entreprises</li>
+									<li>Gestion des Banques</li>
+									<li>Gestion Commerciale</li>
+									<li>Gestion des Ressources Humaines</li>
+								</ul>
+							</p>
+
+						</div>
+						
+					</div>
+				</p>
+
+			{% elseif niv==1 %}
+				<p>
+					<li>Master en Comptabilité, Contrôle et Audit</li>
+					<li>Master en Administration et Gestion des Ressources Humaines</li>
+					<li>Master en Gestion et Expertise Commerciale</li>
+					<li>Master en génie logiciel et intégration d’application</li>
+					<li>Master en système d’intégration et d’aide à la décision </li>
+					<li>Master en Gestion et transport logistique</li>
+
+				</p>
+
+			{% else %}
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+
+
+			{% endif %}
+
+
+		<h3>{{ option }}</h3>
+		
+		<div class="detail">
+				<h4>Description</h4>
+			<p>
+				{{description}}
+			</p>
+
+				<h4>Débouchés</h4>
+			<p>
+				{{debouche}}
+			</p>
+
+		</div>
+
+		<h3>Autres infos</h3>
+			<div class="detail">
+				<h4>Voie de recrutement</h4>
+				<p>
+					Les étudiants sont admis à l’IUT avec un baccalauréat (séries A, B, C, D, E, F, G2, G3) ou tout autre diplôme jugé équivalent. Sur étude de dossiers, l’Etat octroie des bourses d’études soit à 100% ou soit demi-bourses (l’étudiant donne une contribution de 100000 f CFA par ans).  
+				</p>
+				<p>
+					L’entité autorise après étude de dossiers l’inscription sous le régime sponsoring (400 000f CFA ou dérogation (200 000f CFA).
+				</p>
+
+				<h4>Frais de scolarité par formation</h4>
+
+				<table class="table table-striped" style="margin-top: 3%">
+
+				  <thead class="thead-dark">
+				    <tr>
+				      <th scope="col">Cycle de formation</th>
+				      <th scope="col" colspan="2">Frais de formation</th>
+				    </tr>
+				  </thead>
+
+				  <tbody>
+				    <tr>
+				      <th scope="row" rowspan="2">Licence cours du jour</th>
+				      <th>Sponsoring</th>
+				      <th>Dérogation</th>
+				      				      
+				    </tr>
+				    <tr>
+				      <td>400.000 f CFA</td>
+				      <td>200.000 FCFA</td>				     
+				    </tr>
+				    <tr>
+				      <th scope="row" rowspan="2">Licence cours du soir</th>
+				      <th >Régime fonctionnaire</th>
+				      <th>Régime normal</ths>
+				    </tr>
+				    <tr>
+				      <td>450.000 F CFA</td>
+				      <td>415.000 F CFA</td>			     
+				    </tr>
+
+				    <tr>
+				      <th scope="row">Master</th>
+				      <td colspan="2">600.000 fcfa</td>
+				    </tr>
+				  </tbody>
+
+				</table>
+
+			</div>
+
+
+	</div>		
+
+	
+
+{% endblock %}
+
+
