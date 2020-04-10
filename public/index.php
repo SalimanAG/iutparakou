@@ -24,6 +24,9 @@
 			case 'accueil':
 				echo $env1 -> render ("base.twig");
 				break;
+
+
+
 			case 'formations':
 
 				$form=""; $opt=""; $erreur = false; $description = ""; $debouche = ""; $nive = 2 ;
@@ -137,33 +140,66 @@
 						echo $env1 -> render ("autre1/notFound.twig");
 					}
 
-
-				
 				break;
+
+
+
 			case 'iut':
 				echo $env1 -> render ("autre1/iut.twig");
 				break;
+
+
+
 			case 'recherches':
 				echo $env1 -> render ("autre1/recherches.twig");
 				break;
+
+
+
 			case 'partenaires':
 				echo $env1 -> render ("autre1/partenaires.twig");
 				break;
+
+
+
 			case 'vieEtudi':
 				echo $env1 -> render ("autre1/etudiantLife.twig");
 				break;
+
+
+
 			case 'moodle':
 				echo $env1 -> render ("autre1/moodle.twig");
 				break;
+
+
+
 			case 'contact':
 				echo $env1 -> render ("autre1/contact.twig");
 				break;
+
+
+
 			case 'enseignants':
-				echo $env1 -> render ("autre1/iut_list_enseign.html.twig", array('listEnseignant' => $listEnseignant));
+
+				if (isset($_GET['num']) && ($_GET['num'] < count($listEnseignant)))
+				{
+					echo $env1 -> render ("autre1/iut_single_enseignant.html.twig", array('enseignant' => $listEnseignant[$_GET['num']]));
+				}
+				else {
+					echo $env1 -> render ("autre1/iut_list_enseign.html.twig", array('listEnseignant' => $listEnseignant));
+				}
+				
 				break;
+
+
+
 			case 'administration':
 				echo $env1 -> render ("autre1/iut_administration.html.twig", array('listMembrAdministration' => $listMembrAdministration));
 				break;
+
+
+
 			case 'actualites':
 
 					if (!isset($_GET['id'])) {
@@ -175,6 +211,8 @@
 
 				break;
 			
+
+
 			default:
 				echo $env1 -> render ("autre1/notFound.twig");
 				break;

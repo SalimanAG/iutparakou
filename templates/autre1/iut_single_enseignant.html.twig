@@ -1,0 +1,91 @@
+{% extends "autre1/tempUIT.html.twig" %}
+
+
+{% block corps2 %}
+	<div class="corps2" id="singleEns">
+		<div class="infos_gene">
+			<div class="row">
+				<h1 class="nomEns">{{enseignant.prenoms}} {{enseignant.nom}}</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="img/{{enseignant.photo}}" class="img-fluid" alt="Pas de photo disponible">
+					<img src="" width="10" height="10">
+				</div>
+				<div class="col-md-4 info">
+					<p style="font-size: 2em; font-weight: bold; font-family: Poppins,sans-serif;">{{enseignant.grade}}</p>
+					<h5>Spécialité :</h5>
+					<p>{{enseignant.specialite}}</p>
+				</div>
+				<div class="col-md-4">
+					<h2>Contacts</h2>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item"> <span class="fa fa-facebook">  </span>  Contact1</li>
+						<li class="list-group-item"><span class="fa fa-facebook">  </span> Contact2</li>
+						<li class="list-group-item"><span class="fa fa-facebook">  </span> Contact3</li>
+						
+					</ul>
+					
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="row ribriques">
+			<ul class="nav nav-pills nav-justified">
+			  <li class="nav-item">
+			    <a class="nav-link active" href="#">PRESENTATION</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">AXES DE RECHERCHE</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">ENSEIGNEMENT</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">PUBLICATIONS</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">PARCOURS</a>
+			  </li>
+			</ul>
+		</div>
+
+		<div class="row corps_rubrique">
+			<p>
+				
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. <strong>Excepteur</strong> sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			
+			</p>
+		</div>
+	</div>		
+
+	
+
+{% endblock %}

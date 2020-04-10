@@ -135,3 +135,61 @@ html {
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
+
+#singleEns {
+	padding: 0;
+}
+
+#singleEns .infos_gene,.ribriques,.corps_rubrique {
+	background-color: white;
+	margin: 5% 0;
+	padding: 2% 0;
+	overflow: hidden;
+	box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+#singleEns .infos_gene {
+	padding: 2% 5%;
+}
+
+#singleEns .infos_gene .nomEns {
+	padding: 3% 1%;
+	color: #282828;
+	width: 100%;
+}
+
+#singleEns .infos_gene .info {
+	padding: 3% 3%;
+	text-align: left;
+}
+
+#singleEns .ribriques {
+	padding: 2% 2%;
+	margin-bottom: 0;	
+}
+
+#singleEns .ribriques ul {
+	width: 100%;
+}
+
+#singleEns .corps_rubrique {
+	margin-top: 1%;
+	padding: 5% 7%
+}
+
+#singleEns .nav-link {
+	color: black;
+}
+
+#singleEns .nav-item :hover {
+	background-color: rgba(119,119,119,0.1);
+	transition: background-color 0.5s;
+	color: black;	
+}
+
+#singleEns .active {
+	background-color: #00008b;
+	color: white;
+}
+
+
