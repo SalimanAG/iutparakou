@@ -42,14 +42,15 @@
 							  	<img src="img/{{enseignant.photo}}"  alt="Pas de Photo Disponible">
 							  </div>	
 							  <div class="card-body">
-								    <h5 class="card-title">{{enseignant.nom}} {{enseignant.prenoms}}</h5>
+								    
+								    <h5 class="card-title"><a href="?p=enseignants&num={{loop.index0}}" style="display: block;">{{enseignant.nom}} {{enseignant.prenoms}}</a></h5>
 								    <p class="card-text">
 								    	{{enseignant.grade}}
 								    </p>
 								    <h6 class="cartParaTitre">Spécialité : </h6>
 								    <p>
 								    	{{enseignant.specialite}}
-								    	<a href="?p=enseignants&num={{loop.index0}}" style="display: block;">Plus...</a>
+								    	
 								    </p> 
 							  </div>
 						</div>

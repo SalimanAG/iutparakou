@@ -184,7 +184,21 @@
 
 				if (isset($_GET['num']) && ($_GET['num'] < count($listEnseignant)))
 				{
-					echo $env1 -> render ("autre1/iut_single_enseignant.html.twig", array('enseignant' => $listEnseignant[$_GET['num']]));
+					if (isset($_GET['rub']) && $_GET['rub']==='axe') {
+						echo $env1 -> render ("autre1/iut_single_enseignant_axe.html.twig", array('enseignant' => $listEnseignant[$_GET['num']], 'numero' => $_GET['num']));
+					}
+					elseif (isset($_GET['rub']) && $_GET['rub']==='ens') {
+						echo $env1 -> render ("autre1/iut_single_enseignant_ens.html.twig", array('enseignant' => $listEnseignant[$_GET['num']], 'numero' => $_GET['num'], 'numero' => $_GET['num']));
+					}
+					elseif (isset($_GET['rub']) && $_GET['rub']==='parcs') {
+						echo $env1 -> render ("autre1/iut_single_enseignant_parcs.html.twig", array('enseignant' => $listEnseignant[$_GET['num']], 'numero' => $_GET['num']));
+					}
+					elseif (isset($_GET['rub']) && $_GET['rub']==='publi') {
+						echo $env1 -> render ("autre1/iut_single_enseignant_publi.html.twig", array('enseignant' => $listEnseignant[$_GET['num']], 'numero' => $_GET['num']));
+					}
+					else{
+						echo $env1 -> render ("autre1/iut_single_enseignant.html.twig", array('enseignant' => $listEnseignant[$_GET['num']], 'numero' => $_GET['num']));
+					}
 				}
 				else {
 					echo $env1 -> render ("autre1/iut_list_enseign.html.twig", array('listEnseignant' => $listEnseignant));

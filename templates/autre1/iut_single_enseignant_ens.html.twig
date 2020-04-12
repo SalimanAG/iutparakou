@@ -1,0 +1,21 @@
+{% extends "autre1/iut_single_enseignant.html.twig" %}
+
+
+
+			{% block activPresentation %}{% endblock %}
+
+			{% block activAxesDeRecherche %}{% endblock %}
+
+			{% block activEnseignement %}active{% endblock %}
+
+			{% block activPublications %}{% endblock %}
+
+			{% block activParcours %}{% endblock %}
+
+
+
+			{% block contenuRublique %}
+			<p>
+				{{enseignant.enseignement}}
+			</p>
+			{% endblock %}
