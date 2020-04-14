@@ -3,52 +3,13 @@
 
 {% block corps2 %}
 	
-
-		<div class="row">
-			<div class="col-md-8 col-lg-9 contenuListeEnseign">
-				
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
-			<div class="col-md-4 col-lg-3 contenuListeEnseign" >
-				
-				<div class="card mb-3 formationCarteNonList">
-					<div class="card-header">
-					   Situation géographique
-					</div>
-				  <div class="card-body">
-				    <h5 class="card-title marge">Card title</h5>
-				    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				    tempor incididunt ut labore et dolore magna aliqua. Ut enim...</p>
-				    
-				  </div>
-				  <img src="..." class="card-img-top" alt="...">
-				</div>
-			</div>
-		</div>
-
 		<div>
 			<div class="container contenuListeEnseign">
 				
 				<div class="row">
-					<h2>Liste des actuels membres de l'adminnistration de l'IUT de Parakou</h2>
+					<h2 style="padding-left: 3%;">ADMINISTRATION DE l'IUT/UP</h2>
 				</div>
-
+<div class="" style="width: 100%; height: 2px; background-color: red; border: black solid 1px;"></div>
 				<div class="row">
 					
 					{% for membreAdministration in listMembrAdministration %}
@@ -79,6 +40,44 @@
 
 					{% endfor %}
 
+
+
+				</div>
+
+
+				<div class="row">
+					<h2 style="padding-left: 3%; padding-top: 5%;">RESPONSABLES DES FILIERES DE FORMATIONS DE l'IUT/UP</h2>
+				</div>
+<div class="" style="width: 100%; height: 2px; background-color: red; border: black solid 1px;"></div>
+				<div class="row">
+					
+					{% for membreAdministration in listMembrAdministration %}
+						<div class="col-md-6 ">
+						<div class="card mb-3 formationCarte">
+							<div class="row no-gutters">
+								<div class="col-md-6">
+									  <div class="card-img-top" style="overflow: hidden; padding: 10%;">
+									  	<img src="img/{{ membreAdministration.photo }}"  alt="Pas de Photo Disponible">
+									  </div>
+									  <h5 class="card-title marge">{{ membreAdministration.nom }} {{ membreAdministration.prenoms }}</h5>
+								</div>
+
+								<div class="col-md-6">
+									  <div class="card-body">
+										    
+										    <p class="card-text">
+										    	{{ membreAdministration.denomination }}
+										    </p>
+												    
+										</div>
+								</div>
+
+							</div>
+						</div>
+						</div>
+
+
+					{% endfor %}
 
 				</div>
 			</div>

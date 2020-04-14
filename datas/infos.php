@@ -350,6 +350,52 @@
 
 											 );
 
+				$listResponsablesFilière = array(
+												array(	'nom' => " Dr FADONOUGBO", 
+														'prenoms' => "Boko",
+														'denomination' => "Responsable programmes spéciaux",
+														'descriptionDenomination' => "",
+														'photo' => "avatar.png"
+														),
+												array(	'nom' => "Dr ADEKAMBI", 
+														'prenoms' => "Souléimane A.",
+														'denomination' => "Chef Filière IG et GC",
+														'descriptionDenomination' => "",
+														'photo' => "avatar.png"
+														),
+												array(	'nom' => "Dr TCHOKPONHOUE", 
+														'prenoms' => "Henri",
+														'denomination' => "Chef Filere GRH et GTL",
+														'descriptionDenomination' => "",
+														'photo' => "avatar.png"
+														),
+												array(	'nom' => "Dr AIFA", 
+														'prenoms' => "Emile",
+														'denomination' => "Chef Filière GB et GE",
+														'descriptionDenomination' => "",
+														'photo' => "avatar.png"
+														),
+												array(	'nom' => "Dr MOUSSE", 
+														'prenoms' => "A. Mikaël",
+														'denomination' => "Chef Filière Adjoint IG et GC",
+														'descriptionDenomination' => "",
+														'photo' => "avatar.png"
+														),
+												array(	'nom' => "Dr LIHOUSSOU", 
+														'prenoms' => "Messan",
+														'denomination' => "Chef Filere Adjoint GRH et GTL",
+														'descriptionDenomination' => "",
+														'photo' => "avatar.png"
+														),
+												array(	'nom' => "Dr WOROUCOUBOU", 
+														'prenoms' => "Habibou",
+														'denomination' => "Chef Filière Adjoint GB et GE",
+														'descriptionDenomination' => "",
+														'photo' => "avatar.png"
+														)
+
+
+											 );
 
 
 
