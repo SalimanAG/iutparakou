@@ -209,7 +209,7 @@
 
 
 			case 'administration':
-				echo $env1 -> render ("autre1/iut_administration.html.twig", array('listMembrAdministration' => $listMembrAdministration));
+				echo $env1 -> render ("autre1/iut_administration.html.twig", array('listMembrAdministration' => $listMembrAdministration, 'listResponsablesFilière' => $listResponsablesFilière));
 				break;
 
 

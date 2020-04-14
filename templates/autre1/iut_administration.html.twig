@@ -51,22 +51,22 @@
 <div class="" style="width: 100%; height: 2px; background-color: red; border: black solid 1px;"></div>
 				<div class="row">
 					
-					{% for membreAdministration in listMembrAdministration %}
+					{% for membreResponsablesFilière in listResponsablesFilière %}
 						<div class="col-md-6 ">
 						<div class="card mb-3 formationCarte">
 							<div class="row no-gutters">
 								<div class="col-md-6">
 									  <div class="card-img-top" style="overflow: hidden; padding: 10%;">
-									  	<img src="img/{{ membreAdministration.photo }}"  alt="Pas de Photo Disponible">
+									  	<img src="img/{{ membreResponsablesFilière.photo }}"  alt="Pas de Photo Disponible">
 									  </div>
-									  <h5 class="card-title marge">{{ membreAdministration.nom }} {{ membreAdministration.prenoms }}</h5>
+									  <h5 class="card-title marge">{{ membreResponsablesFilière.nom }} {{ membreResponsablesFilière.prenoms }}</h5>
 								</div>
 
 								<div class="col-md-6">
 									  <div class="card-body">
 										    
 										    <p class="card-text">
-										    	{{ membreAdministration.denomination }}
+										    	{{ membreResponsablesFilière.denomination }}
 										    </p>
 												    
 										</div>
