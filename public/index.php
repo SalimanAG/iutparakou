@@ -188,7 +188,7 @@
 						echo $env1 -> render ("autre1/iut_single_enseignant_axe.html.twig", array('enseignant' => $listEnseignant[$_GET['num']], 'numero' => $_GET['num']));
 					}
 					elseif (isset($_GET['rub']) && $_GET['rub']==='ens') {
-						echo $env1 -> render ("autre1/iut_single_enseignant_ens.html.twig", array('enseignant' => $listEnseignant[$_GET['num']], 'numero' => $_GET['num'], 'numero' => $_GET['num']));
+						echo $env1 -> render ("autre1/iut_single_enseignant_ens.html.twig", array('enseignant' => $listEnseignant[$_GET['num']], 'numero' => $_GET['num']));
 					}
 					elseif (isset($_GET['rub']) && $_GET['rub']==='parcs') {
 						echo $env1 -> render ("autre1/iut_single_enseignant_parcs.html.twig", array('enseignant' => $listEnseignant[$_GET['num']], 'numero' => $_GET['num']));

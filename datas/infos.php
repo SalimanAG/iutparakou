@@ -1,36 +1,31 @@
 <?php
 
 
-				$lorem = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+				$lorem = "A venir...";
 
 				$formations = array('0' => array('GE' => 'Gestion des Entreprises (GE)', 
 															 'GB' => 'Gestion des Banques (GB)',
 															 'GC' => 'Gestion Commerciale (GC)',
 															 'IG' => 'Informatique de Gestion (IG)',
-															 'GTL' => 'Gestion des Transports et Logistique',
-															 'GRH' => 'Gestion des Ressources Humaines'
+															 'GTL' => 'Gestion des Transports et Logistique (GTL)',
+															 'GRH' => 'Gestion des Ressources Humaines (GRH)'
 														) ,
-												'1' => array('CCA' => 'Comptabilité, Contrôle et Audit',
-															 'AIRH' => 'Administration et Ingénierie des Ressources Humaines',
-															 'GEC' => 'Gestion et Expertise Commerciale',
-															 'GLIA' => 'Génie Logiciel et Intégration d\'Application',
-															 'SIAD' => 'Système d\'Information et d\'Aide à la Décision'
+												'1' => array('CCA' => 'Comptabilité, Contrôle et Audit (CCA)',
+															 'AIRH' => 'Administration et Ingénierie des Ressources Humaines (AIRH',
+															 'GEC' => 'Gestion et Expertise Commerciale (GEC)',
+															 'GLIA' => 'Génie Logiciel et Intégration d\'Application (GLIA)',
+															 'SIAD' => 'Système d\'Information et d\'Aide à la Décision (SIAD)'
 														)
 											);
 
 				$formationsMaster = array(
 
-										'CCA' => array(	'nom' => "Comptabilité, Contrôle et Audit",
+										'CCA' => array(	'nom' => "Comptabilité, Contrôle et Audit (CCA)",
 												'description' => $lorem,
 												'debouches' => "Contrôleur de gestion ; Auditeur interne ; Analyste financier ; Consultant en audit et contrôle de gestion."
 											),
 										'AIRH' => array(
-												'nom' => "Administration et Ingénierie des Ressources Humaines",
+												'nom' => "Administration et Ingénierie des Ressources Humaines (AIRH)",
 												'description' => $lorem,
 												'debouches' => $lorem
 											),
@@ -40,12 +35,12 @@
 												'debouches' => $lorem
 											),
 										'GLIA' => array(
-												'nom' => "Génie Logiciel et Intégration d\'Application",
+												'nom' => "Génie Logiciel et Intégration d\'Application (GLIA)",
 												'description' => $lorem,
 												'debouches' => $lorem
 											),
 										'SIAD' => array(
-												'nom' => "Système d\'Information et d\'Aide à la Décision",
+												'nom' => "Système d\'Information et d\'Aide à la Décision (SIAD)",
 												'description' => $lorem,
 												'debouches' => $lorem
 											)
@@ -83,7 +78,7 @@
 												'twitter' => "contact Vide"
 												),
 							'presentation' => $lorem ,
-							'axesDeRrecherche' => $lorem ,
+							'axesDeRecherche' => $lorem ,
 							'enseignement' => $lorem ,
 							'publication' => $lorem ,
 							'parcours' => $lorem 
@@ -101,7 +96,7 @@
 												'twitter' => "contact Vide"
 												),
 							'presentation' => $lorem ,
-							'axesDeRrecherche' => $lorem ,
+							'axesDeRecherche' => $lorem ,
 							'enseignement' => $lorem ,
 							'publication' => $lorem ,
 							'parcours' => $lorem 
@@ -119,7 +114,7 @@
 												'twitter' => "contact Vide"
 												),
 							'presentation' => $lorem ,
-							'axesDeRrecherche' => $lorem ,
+							'axesDeRecherche' => $lorem ,
 							'enseignement' => $lorem ,
 							'publication' => $lorem ,
 							'parcours' => $lorem 
@@ -137,7 +132,7 @@
 												'twitter' => "contact Vide"
 												),
 							'presentation' => $lorem ,
-							'axesDeRrecherche' => $lorem ,
+							'axesDeRecherche' => $lorem ,
 							'enseignement' => $lorem ,
 							'publication' => $lorem ,
 							'parcours' => $lorem 
@@ -155,7 +150,7 @@
 												'twitter' => "contact Vide"
 												),
 							'presentation' => $lorem ,
-							'axesDeRrecherche' => $lorem ,
+							'axesDeRecherche' => $lorem ,
 							'enseignement' => $lorem ,
 							'publication' => $lorem ,
 							'parcours' => $lorem 
@@ -173,7 +168,7 @@
 												'twitter' => "contact Vide"
 												),
 							'presentation' => $lorem ,
-							'axesDeRrecherche' => $lorem ,
+							'axesDeRecherche' => $lorem ,
 							'enseignement' => $lorem ,
 							'publication' => $lorem ,
 							'parcours' => $lorem 
@@ -191,7 +186,7 @@
 												'twitter' => "contact Vide"
 												),
 							'presentation' => $lorem ,
-							'axesDeRrecherche' => $lorem ,
+							'axesDeRecherche' => $lorem ,
 							'enseignement' => $lorem ,
 							'publication' => $lorem ,
 							'parcours' => $lorem 
@@ -209,7 +204,7 @@
 												'twitter' => "contact Vide"
 												),
 							'presentation' => $lorem ,
-							'axesDeRrecherche' => $lorem ,
+							'axesDeRecherche' => $lorem ,
 							'enseignement' => $lorem ,
 							'publication' => $lorem ,
 							'parcours' => $lorem 
@@ -227,7 +222,7 @@
 												'twitter' => "contact Vide"
 												),
 							'presentation' => $lorem ,
-							'axesDeRrecherche' => $lorem ,
+							'axesDeRecherche' => $lorem ,
 							'enseignement' => $lorem ,
 							'publication' => $lorem ,
 							'parcours' => $lorem 
@@ -245,7 +240,7 @@
 												'twitter' => "contact Vide"
 												),
 							'presentation' => $lorem ,
-							'axesDeRrecherche' => $lorem ,
+							'axesDeRecherche' => $lorem ,
 							'enseignement' => $lorem ,
 							'publication' => $lorem ,
 							'parcours' => $lorem 
@@ -263,7 +258,7 @@
 												'twitter' => "contact Vide"
 												),
 							'presentation' => $lorem ,
-							'axesDeRrecherche' => $lorem ,
+							'axesDeRecherche' => $lorem ,
 							'enseignement' => $lorem ,
 							'publication' => $lorem ,
 							'parcours' => $lorem 
@@ -281,7 +276,7 @@
 												'twitter' => "contact Vide"
 												),
 							'presentation' => $lorem ,
-							'axesDeRrecherche' => $lorem ,
+							'axesDeRecherche' => $lorem ,
 							'enseignement' => $lorem ,
 							'publication' => $lorem ,
 							'parcours' => $lorem 
@@ -299,7 +294,7 @@
 												'twitter' => "contact Vide"
 												),
 							'presentation' => $lorem ,
-							'axesDeRrecherche' => $lorem ,
+							'axesDeRecherche' => $lorem ,
 							'enseignement' => $lorem ,
 							'publication' => $lorem ,
 							'parcours' => $lorem 
