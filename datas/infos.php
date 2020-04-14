@@ -313,7 +313,7 @@
 														'prenoms' => "Souléimane A.",
 														'denomination' => "Directeur Adjoint de L'IUT",
 														'descriptionDenomination' => "",
-														'photo' => "avatar.png"
+														'photo' => "enseignants/drAdeSou.jpg"
 														),
 												array(	'nom' => "TOUDONOU", 
 														'prenoms' => "S. Roland",
@@ -361,7 +361,7 @@
 														'prenoms' => "Souléimane A.",
 														'denomination' => "Chef Filière IG et GC",
 														'descriptionDenomination' => "",
-														'photo' => "avatar.png"
+														'photo' => "enseignants/drAdeSou.jpg"
 														),
 												array(	'nom' => "Dr TCHOKPONHOUE", 
 														'prenoms' => "Henri",
@@ -379,7 +379,7 @@
 														'prenoms' => "A. Mikaël",
 														'denomination' => "Chef Filière Adjoint IG et GC",
 														'descriptionDenomination' => "",
-														'photo' => "avatar.png"
+														'photo' => "enseignants/drMouAngMik.jpg"
 														),
 												array(	'nom' => "Dr LIHOUSSOU", 
 														'prenoms' => "Messan",
